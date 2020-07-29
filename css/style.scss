@@ -1,0 +1,58 @@
+$clr-dark: #404040;
+$clr-acc: #BF9D7E;
+$clr-acc-2: #F2E857;
+$medium: (max-width: 800px);
+
+
+.navbar {
+    box-shadow: none;
+}
+
+.jumbotron {
+    background-color: $clr-dark;
+    max-height: 70vh;
+}
+
+.limited {
+    filter: drop-shadow(12px 25px 15px black);
+    margin-left: 30vh;
+    max-height: 70vh;
+}
+
+.btn-acc {
+    background-color: $clr-acc-2;
+}
+
+.jumbo-title {
+    color: $clr-acc-2;
+}
+
+.navbar {
+    background-color: $clr-dark;
+    
+}
+
+.nav-item {
+    color: $clr-acc!important;
+}
+
+.navbar-brand {
+    font-size: xx-large;
+}
+
+.block {
+    height: 80vh;
+}
+
+#product-hero {
+    height: fit-content;
+}
+
+#about-block {
+    padding-top: 30vh;
+}
+
+.rate {
+    // max-width: 50vh;
+    max-height: 100vh;
+}

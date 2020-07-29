@@ -1,0 +1,55 @@
+.navbar {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.jumbotron {
+  background-color: #404040;
+  max-height: 70vh;
+}
+
+.limited {
+  -webkit-filter: drop-shadow(12px 25px 15px black);
+          filter: drop-shadow(12px 25px 15px black);
+  margin-left: 30vh;
+  max-height: 70vh;
+}
+
+.btn-acc {
+  background-color: #F2E857;
+}
+
+.jumbo-title {
+  color: #F2E857;
+}
+
+.navbar {
+  background-color: #404040;
+}
+
+.nav-item {
+  color: #BF9D7E !important;
+}
+
+.navbar-brand {
+  font-size: xx-large;
+}
+
+.block {
+  height: 80vh;
+}
+
+#product-hero {
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+#about-block {
+  padding-top: 30vh;
+}
+
+.rate {
+  max-height: 100vh;
+}
+/*# sourceMappingURL=style.css.map */
