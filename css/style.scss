@@ -29,30 +29,52 @@ $medium: (max-width: 800px);
 
 .navbar {
     background-color: $clr-dark;
-    
+
 }
 
 .nav-item {
-    color: $clr-acc!important;
+    color: $clr-acc !important;
 }
 
 .navbar-brand {
     font-size: xx-large;
 }
 
-.block {
-    height: 80vh;
-}
 
 #product-hero {
     height: fit-content;
 }
 
 #about-block {
-    padding-top: 30vh;
+    margin-top: 30vh;
+}
+
+section {
+    min-height: 100vh;
 }
 
 .rate {
-    // max-width: 50vh;
+
     max-height: 100vh;
+}
+
+#features-block {
+    background-color: $clr-dark;
+
+}
+
+.rg {
+    filter: drop-shadow(0px 55px 35px black);
+    max-height: 85vh;
+}
+
+.feature-list {
+    font-size: xx-large;
+    color: $clr-acc;
+    padding-top: 5vh;
+}
+
+.dark {
+    background-color: $clr-dark;
+    
 }

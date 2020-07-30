@@ -35,10 +35,6 @@
   font-size: xx-large;
 }
 
-.block {
-  height: 80vh;
-}
-
 #product-hero {
   height: -webkit-fit-content;
   height: -moz-fit-content;
@@ -46,10 +42,34 @@
 }
 
 #about-block {
-  padding-top: 30vh;
+  margin-top: 30vh;
+}
+
+section {
+  min-height: 100vh;
 }
 
 .rate {
   max-height: 100vh;
+}
+
+#features-block {
+  background-color: #404040;
+}
+
+.rg {
+  -webkit-filter: drop-shadow(0px 55px 35px black);
+          filter: drop-shadow(0px 55px 35px black);
+  max-height: 85vh;
+}
+
+.feature-list {
+  font-size: xx-large;
+  color: #BF9D7E;
+  padding-top: 5vh;
+}
+
+.dark {
+  background-color: #404040;
 }
 /*# sourceMappingURL=style.css.map */
