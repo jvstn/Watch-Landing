@@ -1,6 +1,13 @@
 .navbar {
   -webkit-box-shadow: none;
           box-shadow: none;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+@media (max-width: 800px) {
+  .combo {
+    text-align: center;
+  }
 }
 
 .jumbotron {
@@ -33,6 +40,7 @@
 
 .navbar-brand {
   font-size: xx-large;
+  font-weight: 1000;
 }
 
 #product-hero {
@@ -42,7 +50,7 @@
 }
 
 #about-block {
-  margin-top: 30vh;
+  margin-top: 14vh;
 }
 
 section {
@@ -60,7 +68,8 @@ section {
 .rg {
   -webkit-filter: drop-shadow(0px 55px 35px black);
           filter: drop-shadow(0px 55px 35px black);
-  max-height: 85vh;
+  height: 75vh;
+  min-width: 70vh;
 }
 
 .feature-list {
@@ -71,5 +80,28 @@ section {
 
 .dark {
   background-color: #404040;
+}
+
+.prod-main {
+  max-height: 80vh;
+}
+
+.prod-row {
+  margin-top: 20vh;
+}
+
+.brdr {
+  border: solid .75px black;
+  cursor: pointer;
+}
+
+.neon {
+  background-color: #F2E857 !important;
+  color: black;
+  text-transform: none;
+}
+
+.neon:hover {
+  color: black;
 }
 /*# sourceMappingURL=style.css.map */

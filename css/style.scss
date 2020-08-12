@@ -6,6 +6,16 @@ $medium: (max-width: 800px);
 
 .navbar {
     box-shadow: none;
+    font-family: 'Didact Gothic',
+        sans-serif;
+
+}
+
+.combo {
+    @media (max-width: 800px) {
+        text-align: center;
+    }
+
 }
 
 .jumbotron {
@@ -38,6 +48,7 @@ $medium: (max-width: 800px);
 
 .navbar-brand {
     font-size: xx-large;
+    font-weight: 1000;
 }
 
 
@@ -46,7 +57,7 @@ $medium: (max-width: 800px);
 }
 
 #about-block {
-    margin-top: 30vh;
+    margin-top: 14vh;
 }
 
 section {
@@ -65,7 +76,9 @@ section {
 
 .rg {
     filter: drop-shadow(0px 55px 35px black);
-    max-height: 85vh;
+    height: 75vh;
+    min-width: 70vh;
+
 }
 
 .feature-list {
@@ -76,5 +89,32 @@ section {
 
 .dark {
     background-color: $clr-dark;
-    
+
+}
+
+
+// Product details 
+
+.prod-main {
+    max-height: 80vh;
+}
+
+.prod-row {
+    margin-top: 20vh;
+
+}
+
+.brdr {
+    border: solid .75px black;
+    cursor: pointer;
+}
+
+.neon {
+    background-color: $clr-acc-2 !important;
+    color: black;
+    text-transform: none;
+}
+
+.neon:hover {
+    color: black;
 }
