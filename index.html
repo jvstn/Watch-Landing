@@ -16,6 +16,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
     <!-- Custom Styles -->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="/img/watch-4.png" type="image/x-icon">
 
 </head>
 
@@ -24,9 +25,11 @@
     <section id="product-hero" class="block">
 
         <nav class="navbar navbar-expand-md navbar-dark">
+            <a class="navbar-brand mr-4 ml-4 d-md-none" href="#">Astra</a>
             <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse"
                 data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
-                aria-label="Toggle navigation"></button>
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav ml-auto mr-3 mt-2 mt-lg-0">
                     <li class="nav-item active">
@@ -86,7 +89,7 @@
                     <img src="/img/watch-3.png" class="img-fluid rate slide-left" alt="">
                 </div>
                 <div class="col-md-6">
-                    <h2 class="mb-4 display-2">Best In Class Heart Rate Monitor</h2>
+                    <h2 class="mb-4 display-3 describe">Best In Class Heart Rate Monitor</h2>
                     <p>
                         Vivomove HR collects data on heart rate using photoplethysmography (PPG). Unlike other trackers,
                         the HR sensor is protected by a scratch-proof sapphire glass to ensure accurate measurements
@@ -128,7 +131,7 @@
 
     <section id="product-details ">
         <div class="row d-flex justify-content-center prod-row">
-            <div class="col-md-1 offset-1 mr-4 align-self-center">
+            <div class="col-md-1 offset-1 mr-4 align-self-center d-none d-md-block">
                 <img src="/img/watch.jpg" class="img-fluid thumbnail my-3 brdr dyno" onclick="changePicture(this);"
                     alt="First dynamic picture">
                 <img src="/img/watch2.jpg" class="img-fluid thumbnail brdr dyno" onclick="changePicture(this);"
@@ -136,14 +139,14 @@
                 <img src="/img/model-2.jpg" class="img-fluid thumbnail my-3 brdr dyno" alt="Third dynamic picture"
                     onclick="changePicture(this);">
             </div>
-            <div class="col-md-4  align-self-center">
+            <div class="col-md-4 align-self-center prod-pic">
                 <img src="/img/watch.jpg" id="feat" class="img-fluid prod-main " alt="First dynamic picture">
             </div>
-            <div class="col-md-3 align-self-center">
+            <div class="col-md-3 align-self-center prod-buy">
                 <h1>Vivomove HR Sport</h1>
                 <p>$200</p>
                 <p>The premier hybrid smartwatch for a price you can handle. </p>
-                <button type="button" class="btn btn-default neon btn-lg btn-block">Buy Now</button>
+                <button type="button" class="btn btn-default neon btn-lg btn-buy btn-block">Buy Now</button>
             </div>
         </div>
     </section>

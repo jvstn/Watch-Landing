@@ -25,9 +25,8 @@ $medium: (max-width: 800px);
 
 .limited {
     filter: drop-shadow(12px 25px 15px black);
-    margin-left: 30vh;
     max-height: 70vh;
-}
+} 
 
 .btn-acc {
     background-color: $clr-acc-2;
@@ -58,6 +57,12 @@ $medium: (max-width: 800px);
 
 #about-block {
     margin-top: 14vh;
+    
+    @media (max-width: 800px) {
+        margin-top: 50vh;
+        margin-bottom: 20vh;
+    }
+
 }
 
 section {
@@ -71,7 +76,7 @@ section {
 
 #features-block {
     background-color: $clr-dark;
-
+    
 }
 
 .rg {
@@ -101,12 +106,34 @@ section {
 
 .prod-row {
     margin-top: 20vh;
-
+    @media (max-width: 768px) {
+        margin-bottom: 10vh;
+    }
 }
 
 .brdr {
     border: solid .75px black;
     cursor: pointer;
+}
+
+.prod-pic {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+.prod-buy {
+    @media (max-width: 768px) {
+        text-align: center;
+    }
+}
+
+.btn-buy {
+    @media (max-width: 768px) {
+        width: 30vh;
+        display: inline;
+        
+    }
 }
 
 .neon {

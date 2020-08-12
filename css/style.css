@@ -18,7 +18,6 @@
 .limited {
   -webkit-filter: drop-shadow(12px 25px 15px black);
           filter: drop-shadow(12px 25px 15px black);
-  margin-left: 30vh;
   max-height: 70vh;
 }
 
@@ -51,6 +50,13 @@
 
 #about-block {
   margin-top: 14vh;
+}
+
+@media (max-width: 800px) {
+  #about-block {
+    margin-top: 50vh;
+    margin-bottom: 20vh;
+  }
 }
 
 section {
@@ -90,9 +96,34 @@ section {
   margin-top: 20vh;
 }
 
+@media (max-width: 768px) {
+  .prod-row {
+    margin-bottom: 10vh;
+  }
+}
+
 .brdr {
   border: solid .75px black;
   cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .prod-pic {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .prod-buy {
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .btn-buy {
+    width: 30vh;
+    display: inline;
+  }
 }
 
 .neon {
