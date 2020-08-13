@@ -3,6 +3,16 @@ $clr-acc: #BF9D7E;
 $clr-acc-2: #F2E857;
 $medium: (max-width: 800px);
 
+h1, h2, h3 {
+    font-family: 'Didact Gothic',
+    sans-serif;
+    font-weight: bolder;
+
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+}
 
 .navbar {
     box-shadow: none;
@@ -21,12 +31,21 @@ $medium: (max-width: 800px);
 .jumbotron {
     background-color: $clr-dark;
     max-height: 70vh;
+    @media (max-width: 800px) {
+        max-height: 100vh;
+    }
 }
 
 .limited {
     filter: drop-shadow(12px 25px 15px black);
     max-height: 70vh;
-} 
+    margin-left: 30vh;
+
+    @media (max-width: 800px) {
+        margin-left: 0vh;
+    }
+
+}
 
 .btn-acc {
     background-color: $clr-acc-2;
@@ -57,9 +76,9 @@ $medium: (max-width: 800px);
 
 #about-block {
     margin-top: 14vh;
-    
+
     @media (max-width: 800px) {
-        margin-top: 50vh;
+        margin-top: 30vh;
         margin-bottom: 20vh;
     }
 
@@ -83,7 +102,10 @@ section {
     filter: drop-shadow(0px 55px 35px black);
     height: 75vh;
     min-width: 70vh;
-
+    @media (max-width: 800px) {
+        height: 80vh;
+        margin-bottom: 10vh;
+    }
 }
 
 .feature-list {
@@ -106,6 +128,7 @@ section {
 
 .prod-row {
     margin-top: 20vh;
+
     @media (max-width: 768px) {
         margin-bottom: 10vh;
     }
@@ -132,7 +155,7 @@ section {
     @media (max-width: 768px) {
         width: 30vh;
         display: inline;
-        
+
     }
 }
 
@@ -144,4 +167,11 @@ section {
 
 .neon:hover {
     color: black;
+}
+
+.footer-cont {
+    @media (max-width: 800px) {
+        text-align: center;
+        margin-left: 0;
+    }
 }

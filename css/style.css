@@ -1,3 +1,12 @@
+h1, h2, h3 {
+  font-family: 'Didact Gothic', sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  font-family: 'Roboto', sans-serif;
+}
+
 .navbar {
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -15,10 +24,23 @@
   max-height: 70vh;
 }
 
+@media (max-width: 800px) {
+  .jumbotron {
+    max-height: 100vh;
+  }
+}
+
 .limited {
   -webkit-filter: drop-shadow(12px 25px 15px black);
           filter: drop-shadow(12px 25px 15px black);
   max-height: 70vh;
+  margin-left: 30vh;
+}
+
+@media (max-width: 800px) {
+  .limited {
+    margin-left: 0vh;
+  }
 }
 
 .btn-acc {
@@ -54,7 +76,7 @@
 
 @media (max-width: 800px) {
   #about-block {
-    margin-top: 50vh;
+    margin-top: 30vh;
     margin-bottom: 20vh;
   }
 }
@@ -76,6 +98,13 @@ section {
           filter: drop-shadow(0px 55px 35px black);
   height: 75vh;
   min-width: 70vh;
+}
+
+@media (max-width: 800px) {
+  .rg {
+    height: 80vh;
+    margin-bottom: 10vh;
+  }
 }
 
 .feature-list {
@@ -134,5 +163,12 @@ section {
 
 .neon:hover {
   color: black;
+}
+
+@media (max-width: 800px) {
+  .footer-cont {
+    text-align: center;
+    margin-left: 0;
+  }
 }
 /*# sourceMappingURL=style.css.map */
